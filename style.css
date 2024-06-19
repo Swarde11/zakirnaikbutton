@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(0, 133, 221);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#zakir-naik {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvHNqjDoE_DKiwwCRShMS83zAJaPTMmGwufg&s');
+    background-size: cover;
+
+    width: 350px;
+    height: 350px;
+
+    margin-top: 5%;
+
+    border-radius: 100%;
+    border-width: 3px;
+}
+
+.github-profile {
+    margin-top: 280%;
+    color: black;
+}
+
+.github-profile:hover {
+    color: rgb(32, 32, 32);
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
